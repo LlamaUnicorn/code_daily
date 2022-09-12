@@ -6,6 +6,15 @@ add = lambda x, y: x + y
 check0 = add(5, 3)
 print(check0)
 
+add2 = lambda a, b: a + b
+check1 = add2(1, 2)
+print(check1)
+
+## That didn't work
+# lst = [1, 2, 3]
+# for i in lst:
+#     print(lambda i: i * 2)
+
 # You could declare the same add() 
 # function with the def keyword:
 
